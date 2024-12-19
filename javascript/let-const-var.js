@@ -37,3 +37,14 @@ greetings = "namaste";
 // let is block scoped 
 // 1. A block is a chunk of code bounded by {}.
 // 2. So a variable declared in a block with "let" is only available for use within that block.
+// Hoisting of let
+// Just like var, let declarations are hoisted to the top. 
+// Unlike var which is initialized as undefined, the let keyword is not initialized. 
+// So if you try to use a let variable before declaration, you'll get a Reference Error.
+
+// const declarations are block scoped
+// 1. This means that the value of a variable declared with const remains the same within its scope.
+// 2. It cannot be updated or re-declared.
+
+// Hoisting of const
+// Just like let, const declarations are hoisted to the top but are not initialized.
