@@ -26,7 +26,7 @@ console.log(myArray[1]);
 // console.log(typeof newArr);
 
 
-// slice ans splice
+// slice and splice
 console.log("A ", myArray);
 const myn1 = myArray.slice(1, 3);
 console.log(myn1);
