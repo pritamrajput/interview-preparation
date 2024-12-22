@@ -44,5 +44,16 @@ console.log(jsUser.greetings());
 console.log(jsUser.greetingsTwo());
 // console.log(jsUser)s
 
+// creating arrays from objects
+// 1. arrays of the values
+console.log(Object.values(jsUser));
+
+// 2. arrays of the keys
+console.log(Object.keys(jsUser));
+
+// 3. arrays of key value pairs
+console.log(Object.entries(jsUser))
+
+
 
 
