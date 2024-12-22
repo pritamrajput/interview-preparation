@@ -19,14 +19,21 @@ console.log(myArray[1]);
 // console.log(myArray.includes(9));
 // console.log(myArray.indexOf(3));
 
-const newArr =  myArray.join()
+// const newArr =  myArray.join()
 
-console.log(myArray);
-console.log(newArr);
-console.log(typeof newArr);
+// console.log(myArray);
+// console.log(newArr);
+// console.log(typeof newArr);
 
 
 // slice ans splice
+console.log("A ", myArray);
+const myn1 = myArray.slice(1, 3);
+console.log(myn1);
+console.log("B ", myArray);
 
+const myn2 = myArray.splice(1, 3);
+console.log("C ", myArray);
+console.log(myn2);
 
 
