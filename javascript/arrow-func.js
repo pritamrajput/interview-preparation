@@ -27,18 +27,18 @@ const user = {
 
 // chai();
 
-// const chai = function(){
-//     let username = "Pritam";
-//     console.log(this.username);
-// }
+const chai = function(){
+    let username = "Pritam";
+    console.log(this.username);
+}
 // chai()
 
 // this keyword in arrow function
 // Arrow function
-const chai = () => {
-    let username = "Pritam";
-    console.log(this);
-}
+// const chai = () => {
+//     let username = "Pritam";
+//     console.log(this);
+// }
 
 chai();
 
