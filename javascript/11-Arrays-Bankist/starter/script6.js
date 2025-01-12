@@ -22,12 +22,13 @@ const movementToUsd = movements.map(mov => mov * euroToUSD);
 console.log(movementToUsd);
 
 const movementDescriptions = movements.map(function(mov, i, arr){
-    if(mov > 0){
-        return `Movement ${i + 1} : you deposited ${mov}`;
-    }
-    else{
-        return `Movement ${i + 1} : you withdrew ${Math.abs(mov)}`;
-    }
+    return `Movement ${ i + 1} : you ${mov > 0 ? 'deposited' : 'withdrew'} ${Math.abs(mov)}`;
+    // if(mov > 0){
+    //     return `Movement ${i + 1} : you deposited ${mov}`;
+    // }
+    // else{
+    //     return `Movement ${i + 1} : you withdrew ${Math.abs(mov)}`;
+    // }
 })
 
 console.log(movementDescriptions);
